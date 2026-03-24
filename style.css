@@ -1,0 +1,76 @@
+/* Configuration Générale */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f9;
+    color: #333;
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+}
+
+header h1 { margin: 0; font-size: 2.5em; }
+.subtitle { font-size: 1.2em; opacity: 0.9; }
+
+/* Contenu Principal */
+main {
+    max-width: 850px;
+    margin: -40px auto 40px;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+h2 {
+    color: #1e3c72;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+/* Cartes de Projets */
+.project-card {
+    border-left: 5px solid #3498db;
+    padding: 20px;
+    margin-bottom: 30px;
+    background: #f9f9f9;
+    border-radius: 0 8px 8px 0;
+}
+
+.project-card h3 { margin-top: 0; color: #2c3e50; }
+
+/* Images des Projets */
+.project-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Outils et Footer */
+code { background: #e8e8e8; padding: 2px 5px; border-radius: 4px; }
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #2c3e50;
+    color: white;
+}
+
+footer a { color: #3498db; text-decoration: none; font-weight: bold; }
