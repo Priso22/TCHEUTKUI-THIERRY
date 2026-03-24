@@ -14,7 +14,7 @@ Technicien informatique spécialisé dans le support matériel. Actuellement en 
 
 ### 1. Déploiement de Salle Informatique (Milieu Scolaire)
 * **Objectif :** Mise en place complète d'un parc de 25 postes.
-* **Actions :** * Montage et configuration hardware.
+* **Actions :** Montage et configuration hardware.
     * Masterisation via **Clonezilla** pour un gain de temps de 70% sur l'installation logicielle.
     * Câblage réseau et test de connectivité.
 
