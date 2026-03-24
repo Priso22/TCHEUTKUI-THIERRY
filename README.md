@@ -22,6 +22,7 @@ Technicien informatique spécialisé dans le support matériel. Actuellement en 
 * **Problématique :** Matériel obsolète et lent chez des clients
 * **Solution :** Migration vers un disque SSD, upgrade RAM, nettoyage haute pression et changement de pâte thermique.
 * **Résultat :** Durée de vie des machines prolongée de 3 à 5 ans.
+* (https://github.com/Priso22/TCHEUTKUI-THIERRY/blob/main/1774371882501.png)
 
 ### 3. Nouvelle vie donné à un ordinateur portable ancien grâce à une distribution Linux : Linux Mint
 * **Problématique :** Démarrage sans fin, écran bleu à répétition et surchauffe de l'ordinateur.
