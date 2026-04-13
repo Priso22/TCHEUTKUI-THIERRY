@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - TCHEUTKUI THIERRY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <nav>
+            <div class="logo">TT<span>.</span></div>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#tools">Expertise</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>TCHEUTKUI THIERRY</h1>
+            <p class="subtitle">Technicien Support Informatique 🛠️</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn-primary">Voir mes travaux</a>
+                <a href="#contact" class="btn-secondary">Me contacter</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section id="about" class="section first-section">
+            <h2 class="section-title"><i class="fas fa-user"></i> À propos de moi</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>Bienvenue sur mon portfolio technique.</p> 
+                    <p>Ce projet centralise mes interventions de maintenance critique et mes protocoles d'optimisation hardware.</p>
+                    <p>Professionnel du support matériel et logiciel, je vise aujourd'hui une spécialisation en Réseaux Informatique par le biais d'un Bachelier en Réseaux et télécommunications.</p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-item"><strong>Formation :</strong> Bac+1 Réseaux & Sécurité</div>
+                    <div class="highlight-item"><strong>Compétences :</strong> Micro-soudure, Optimisation Hardware (Upgrade), Diagnostic & Troubleshooting.</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+    <h2 class="section-title"><i class="fas fa-rocket"></i> Réalisations Techniques</h2>
+    <div class="projects-grid">
+        
+        <article class="project-card">
+            <div class="project-image-container">
+                <img src="projet1.jpg" alt="Déploiement salle informatique" class="project-image">
+            </div>
+            <div class="project-content">
+                <h3>Déploiement de Salle Informatique (Milieu Scolaire)</h3>
+                <p><strong>Objectif :</strong> Mise en place complète d'un parc de 25 postes.</p>
+                <p><strong>Actions :</strong> Montage, câblage réseau et masterisation via <strong>Clonezilla</strong> pour un gain de temps de 70% sur l'installation logicielle.</p>
+                <div class="project-tech">
+                    <span class="tag">Infrastructure</span>
+                    <span class="tag">Clonezilla</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-image-container">
+                <img src="projet2.jpg" alt="Maintenance hardware" class="project-image">
+            </div>
+            <div class="project-content">
+                <h3>Optimisation & Sauvetage Hardware</h3>
+                <p><strong>Problématique :</strong> Matériel obsolète et ralentissements critiques.</p>
+                <p><strong>Solution :</strong> Migration SSD, upgrade RAM, nettoyage haute pression et changement de pâte thermique.</p>
+                <p><strong>Résultat :</strong> Durée de vie prolongée de 3 à 5 ans.</p>
+                <div class="project-tech">
+                    <span class="tag">Maintenance</span>
+                    <span class="tag">Hardware</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-image-container">
+                <img src="projet3.jpg" alt="Migration Linux" class="project-image">
+            </div>
+            <div class="project-content">
+                <h3>Nouvelle vie via Linux Mint</h3>
+                <p><strong>Problématique :</strong> Surchauffe, écrans bleus et démarrage extrêmement lent.</p>
+                <p><strong>Solution :</strong> Sauvegarde complète, application de pâte thermique et installation de la distribution Linux Mint.</p>
+                <p><strong>Résultat :</strong> Fluidité retrouvée et problème de chauffe résolu.</p>
+                <div class="project-tech">
+                    <span class="tag">Open Source</span>
+                    <span class="tag">Sécurité</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-image-container">
+                <img src="projet4.jpg" alt="Dépannage registre Windows" class="project-image">
+            </div>
+            <div class="project-content">
+                <h3>Résolution d'un conflit d'accès utilisateur</h3>
+                <p><strong>Problématique :</strong> Registre Windows corrompu empêchant l'accès aux sessions.</p>
+                <p><strong>Solution :</strong> Sauvegarde et accès au registre pour localiser l'identifiant en clé <code>.bak</code> du profil corrompu.</p>
+                <p><strong>Résultat :</strong> Accès rétabli et conflit écarté sans perte de données.</p>
+                <div class="project-tech">
+                    <span class="tag">Dépannage OS</span>
+                    <span class="tag">Registre</span>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+        <section id="tools" class="section">
+            <h2 class="section-title"><i class="fas fa-tools"></i> Outils Techniques</h2>
+            <div class="tools-container">
+                <div class="tool-category">
+                    <h3><i class="fas fa-laptop-code"></i> Logiciels</h3>
+                    <div class="tags">
+                        <span>Clonezilla</span> <span>Rufus</span> <span>Wireshark</span> <span>DriverPack</span>
+                    </div>
+                </div>
+                <div class="tool-category">
+                    <h3><i class="fas fa-microchip"></i> Hardware</h3>
+                    <div class="tags">
+                        <span>Soudure</span> <span>Multimètre</span> <span>Upgrade RAM/SSD</span>
+                    </div>
+                </div>
+                <div class="tool-category">
+                    <h3><i class="fas fa-network-wired"></i> Réseaux</h3>
+                    <div class="tags">
+                        <span>Intranet</span> <span>Configuration Switch</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <h2>📫 Me Contacter</h2>
+        <div class="contact-links">
+            <a href="mailto:priso0196@gmail.com"><i class="fas fa-envelope"></i> priso0196@gmail.com</a>
+            <a href="tel:+237696960627"><i class="fas fa-phone"></i> +237 696 960 627</a>
+        </div>
+        <p class="copyright">&copy; 2026 Tcheutkui Thierry - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
