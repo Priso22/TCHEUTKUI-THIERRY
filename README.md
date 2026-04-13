@@ -3,7 +3,7 @@
 Bienvenue sur mon dépôt de documentation technique ! 
 
 🚀 **Découvrez mes réalisations et mon expertise en version web ici :**
-👉 [**Consulter mon Portfolio en ligne**](https://priso22.github.io/Portfolio/)
+👉 [**Consulter mon Portfolio en ligne**](https://priso22.github.io/TCHEUTKUI-THIERRY/)
 
 ---
 ### Ce que vous trouverez dans ce dépôt :
